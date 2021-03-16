@@ -1,0 +1,26 @@
+{
+  "name": "mocha-chai-wn21-1",
+  "version": "1.0.0",
+  "description": "domes unite test in mocha and chai.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha || true",
+    "coverage": "nyc npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AChishungu/mocha-chai-wn21.git"
+  },
+  "author": "achishungu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AChishungu/mocha-chai-wn21/issues"
+  },
+  "homepage": "https://github.com/AChishungu/mocha-chai-wn21#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-asserttype": "^1.0.5",
+    "mocha": "^8.3.2",
+    "nyc": "^15.1.0"
+  }
+}
